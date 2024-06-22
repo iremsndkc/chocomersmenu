@@ -1,0 +1,56 @@
+.styled-table {
+    background-color: #fff5eb; 
+    padding: 20px;
+    width: 100%;
+}
+.styled-table td {
+    padding: 10px;
+}
+.styled-table td h1{
+    color: rgb(107, 9, 9);
+}
+.styled-table .spacer {
+    width: 20px;
+}
+.styled-table img {
+    display: block;
+    border-radius: 50%;
+}
+.btn-outline-dark{
+    color: rgb(107, 9, 9);
+    background-color: #fff5eb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #966432a4;
+}
+.bi-house{
+    color: black;
+}
+#card{
+    max-width: 500px;
+}
+#card h5{
+    color:rgb(107,9,9);
+}
+#card .text{
+    color:rgb(107,9,9);
+}
+#card img{
+    width: 150px;
+    height: 100px;
+}
+ 
+@media (max-width:760px){
+    #card{
+        max-width: 400px;
+    }
+    #card img{
+        width: 100%;
+        height: 275px;
+    }
+}
